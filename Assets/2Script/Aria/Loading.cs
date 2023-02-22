@@ -106,6 +106,6 @@ public class Loading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PurpleStar.transform.Rotate(new Vector3(0, 0, 360) * Time.deltaTime);
+     //   PurpleStar.transform.Rotate(new Vector3(0, 0, 360) * Time.deltaTime);
     }
 }

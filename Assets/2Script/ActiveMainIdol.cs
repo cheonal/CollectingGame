@@ -12,10 +12,10 @@ public class ActiveMainIdol : MonoBehaviour
 
     public void Start()
     {
-        var skins = MainIdol.AnimationState.Data.SkeletonData.Skins.ToArray();
+      /*  var skins = MainIdol.AnimationState.Data.SkeletonData.Skins.ToArray();
         MainIdol.skeletonDataAsset = MainIdolNum[Gamemanager.gamemanager.playerinform.MainIdolNumber];
         MainIdol.Skeleton.SetSkin(skins[1]);
-        MainIdol.Initialize(true);
+        MainIdol.Initialize(true);*/
     }
     public void EtcCharabtn() //다른 캐릭터 버튼 클릭
     {
