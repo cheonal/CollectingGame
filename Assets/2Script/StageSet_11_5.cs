@@ -156,7 +156,7 @@ public class StageSet_11_5 : MonoBehaviour
     {
         CharBtnClick(); //캐릭터 버튼 활성화
         #region 슬롯 설정 함수
-        for (int i = 0; i < 10; i++) //모든 슬롯 안눌린 상태로 초기화
+        for (int i = 0; i < SlotBtnList.Length; i++) //모든 슬롯 안눌린 상태로 초기화
         {
             SlotBtnList[i].sprite = ClasicSlotBtn;
         }
